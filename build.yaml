@@ -1,8 +1,10 @@
 include:
-  - board: cornix_e73
-    shield: cornix_main_left
+  - board: cornix_left
     artifact-name: cornix_left
 
-  - board: cornix_e73
-    shield: cornix_right
+  - board: cornix_right
     artifact-name: cornix_right
+
+  - board: cornix_right
+    shield: settings_reset
+    artifact-name: reset
